@@ -1,0 +1,27 @@
+.link:not(:last-child) {
+  margin-right: 15px;
+}
+
+.link {
+  font-size: 20px;
+  text-decoration: none;
+  color: inherit;
+  font-weight: 500;
+}
+
+.activeLink {
+  color: brown;
+}
+
+.nav {
+  padding: 20px 30px;
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.list {
+  display: flex;
+}
+
+.list_item:not(:last-child) {
+  margin-right: 20px;
+}
